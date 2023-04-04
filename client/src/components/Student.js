@@ -32,11 +32,11 @@ const Student = () => {
       <h2 className='text-center pt-2'>Informations sur l'étudiant</h2>
       <hr></hr>
       <div className='px-5'>
-        <h2>Nom : {student?.name}</h2>
+        <h6>Nom : {student?.name}</h6>
         <hr></hr>
-        <h2>Email : {student?.email}</h2>
+        <h6>Email : {student?.email}</h6>
         <hr></hr>
-        <h2>Age : {student?.age} ans</h2>
+        <h6>Age : {student?.age} ans</h6>
         <hr></hr>
         <div>
             <button type="button" class="btn btn-outline-secondary" onClick={()=>setShowForm(true)}><i class="bi bi-pen-fill"></i>&nbsp;Modifier</button>&nbsp;&nbsp;

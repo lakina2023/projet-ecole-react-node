@@ -25,8 +25,8 @@ const Liste = () => {
             <tbody>
               {students?.map((student)=>(
                   <tr key={student._id}>
-                      <td className='display'><h3>{student.name}</h3></td>
-                      <td className='pt-3 text-end'><Link to={"/student/"+student._id} type="button" class="btn btn-outline-success"><i class="bi bi-eye-fill"></i></Link></td>
+                      <td className='display'><h5>{student.name}</h5></td>
+                      <td className='pt-1 text-end'><Link to={"/student/"+student._id} type="button" class="btn btn-outline-success"><i class="bi bi-eye-fill"></i></Link></td>
                   </tr>
               ))}
             </tbody>
